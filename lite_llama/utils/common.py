@@ -1,7 +1,8 @@
 import json
-import time, os
+import time, os, sys
 import subprocess
 from typing import List, Optional
+sys.path.append(os.path.abspath(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 
 def read_json(json_path):
